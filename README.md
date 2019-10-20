@@ -22,14 +22,11 @@ C:.
     ├───r1
     │       expected_terminal_output.txt
     │       terminal_input.txt
-    │       terminal_output.txt
     │
     └───r2
             expected_file_output.txt
             expected_terminal_output.txt
-            file_output.txt
             terminal_input.txt
-            terminal_output.txt
 ```
 
 To compile:
