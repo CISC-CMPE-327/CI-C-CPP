@@ -12,10 +12,24 @@ C:.
 │   main.c
 │   makefile  ============> compile scripts, test scripts etc.
 │   README.md
-│   test_main.txt
+│   run_test.bash ==========> testing script.
 └───.github
-    └───workflows
-            ccpp.yml =============> define your workflow
+│   └───workflows
+│           ccpp.yml =============> define your workflow.
+│ 
+│ 
+└───testcases
+    ├───r1
+    │       expected_terminal_output.txt
+    │       terminal_input.txt
+    │       terminal_output.txt
+    │
+    └───r2
+            expected_file_output.txt
+            expected_terminal_output.txt
+            file_output.txt
+            terminal_input.txt
+            terminal_output.txt
 ```
 
 To compile:
