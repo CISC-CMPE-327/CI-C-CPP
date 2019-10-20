@@ -3,8 +3,7 @@ app: main.c
 	gcc main.c -o app
 
 clean : 
-	rm main.o
-	rm *.tmp
+	rm app
 
 test: 
 	./run_test.bash
