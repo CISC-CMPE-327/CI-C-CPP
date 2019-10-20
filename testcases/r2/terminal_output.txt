@@ -1,4 +1,0 @@
-Hello world
-Enter your name please:
-Hello 327
-file written!
